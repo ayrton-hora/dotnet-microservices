@@ -41,3 +41,4 @@ C:\Users\Ayrton\source\repos\.NET_Microservices\Play.Catalog\src\Play.Catalog.Se
 C:\Users\Ayrton\source\repos\.NET_Microservices\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
 C:\Users\Ayrton\source\repos\.NET_Microservices\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
 C:\Users\Ayrton\source\repos\.NET_Microservices\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\Ayrton\source\repos\.NET_Microservices\Play.Catalog\src\Play.Catalog.Service\bin\Debug\net6.0\Play.Common.dll
