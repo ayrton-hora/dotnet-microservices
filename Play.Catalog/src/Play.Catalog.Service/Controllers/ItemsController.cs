@@ -1,3 +1,6 @@
+using System.IO;
+
+
 using Microsoft.AspNetCore.Mvc;
 
 using Play.Common;
@@ -10,6 +13,8 @@ namespace Play.Catalog.Service.Controllers
 	[Route("[controller]/[action]")]
 	public class ItemsController : ControllerBase 
 	{
+		private static int _requestCounter = 0;
+
 		private readonly IRepository<Item> _itemsRepository;
 		
 		public ItemsController(IRepository<Item> itemsRepository)
@@ -19,12 +24,29 @@ namespace Play.Catalog.Service.Controllers
 
 		[HttpGet]
 		public String HealthCheck() => "I'm alive";
-		
+
+
 		[HttpGet]
-		public async Task<IEnumerable<ItemDTO>> GetAsync() 
+		public async Task<ActionResult<IEnumerable<ItemDTO>>> GetAsync()
 		{
+			_requestCounter++;
+			Console.WriteLine($"Request {_requestCounter}: Starting...");
+
+			if (_requestCounter <= 2) 
+			{
+				Console.WriteLine($"Request {_requestCounter}: Delaying...");
+				await Task.Delay(TimeSpan.FromSeconds(10));
+			}
+
+			else if (_requestCounter <= 4) 
+			{
+				Console.WriteLine($"Request {_requestCounter}: 500 (Interal Server Error).");
+				return StatusCode(500);
+			}
+
 			var items = (await _itemsRepository.GetAllAsync()).Select(i => i.AsDTO());
-			return items;
+			Console.WriteLine($"Request {_requestCounter}: 200 (Ok).");
+			return Ok(items);
 		}
 
 		[HttpGet("{id}")]
