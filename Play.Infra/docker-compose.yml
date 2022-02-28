@@ -1,0 +1,17 @@
+# docker-compose up
+
+# docker-compose up -d
+
+version: "3.8"
+
+services:
+  mongoDB:
+    image: mongo
+    container_name: Catalog.MongoDB.Compose
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodbdata:/data/db
+
+volumes:
+  mongodbdata:
