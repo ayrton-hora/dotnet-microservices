@@ -38,6 +38,23 @@ builder.Services.AddHttpClient<CatalogClient>(client =>
             }
     )
 )
+.AddTransientHttpErrorPolicy(b => b.Or<TimeoutRejectedException>().CircuitBreakerAsync(
+    3,
+    TimeSpan.FromSeconds(15),
+    onBreak: (outcome, timespan) => 
+        {
+            var serviceProvider = builder.Services.BuildServiceProvider();
+                serviceProvider.GetService<ILogger<CatalogClient>>() ?
+                    .LogWarning($"Opening the circuit for {timespan.TotalSeconds} seconds...");
+        },
+    onReset: () => 
+        {
+            var serviceProvider = builder.Services.BuildServiceProvider();
+                serviceProvider.GetService<ILogger<CatalogClient>>() ?
+                    .LogWarning($"Closing the circuit...");
+        }
+
+))
 .AddPolicyHandler(Policy.TimeoutAsync<HttpResponseMessage>(1));
 
 

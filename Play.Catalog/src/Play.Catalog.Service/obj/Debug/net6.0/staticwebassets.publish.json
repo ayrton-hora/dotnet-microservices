@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eHfkcuGB29XfYaBVOpvaYtNypNmOvvdWXT9PIPOzJKo=",
+  "Source": "Play.Catalog.Service",
+  "BasePath": "_content/Play.Catalog.Service",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
