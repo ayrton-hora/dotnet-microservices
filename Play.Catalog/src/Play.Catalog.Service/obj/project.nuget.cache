@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7v2t71jfvVzOKhf1VPw8fJgTkfsIoZSHYQNTQscyfBnzG5HaBT6MGHOrxW9uJNNF/ZE1Mb/r/oq0DZIlhDjNFQ==",
+  "dgSpecHash": "xNKeSqVUNY54RDmDtbrHfoYYyO+jnTqrtG/qI1Fb4Hou98Auq0FoGaJACPjgkZWb/Hq9D37Ijr9WRKAqcfvChA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+  "projectFilePath": "C:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ayrton\\.nuget\\packages\\automatonymous\\5.1.3\\automatonymous.5.1.3.nupkg.sha512",
     "C:\\Users\\Ayrton\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",

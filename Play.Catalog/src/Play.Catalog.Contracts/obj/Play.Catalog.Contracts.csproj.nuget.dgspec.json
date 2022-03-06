@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj": {}
+    "C:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj": {
+    "C:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj",
         "projectName": "Play.Catalog.Contracts",
-        "projectPath": "c:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj",
+        "projectPath": "C:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj",
         "packagesPath": "C:\\Users\\Ayrton\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\obj\\",
+        "outputPath": "C:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ayrton\\AppData\\Roaming\\NuGet\\NuGet.Config",
