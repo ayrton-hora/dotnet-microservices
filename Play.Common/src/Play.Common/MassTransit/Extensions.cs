@@ -1,6 +1,9 @@
 using System.Reflection;
 
+using GreenPipes;
+
 using MassTransit;
+using MassTransit.Definition;
 
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -11,7 +14,7 @@ namespace Play.Common.MassTransit
 {
     public static class Extensions
     {
-        public static IServiceCollection AddMassTransitWithRabbit(this IServiceCollection services)
+        public static IServiceCollection AddMassTransitWithRabbit(this IServiceCollection services, string objName)
         {
             services.AddMassTransit(configure => 
             {
@@ -22,7 +25,11 @@ namespace Play.Common.MassTransit
                     var configuration = context.GetService<IConfiguration>();
                     var rabbitMQSettings = configuration.GetSection(nameof(RabbitMQSettings)).Get<RabbitMQSettings>();
                     configurator.Host(rabbitMQSettings.Host);
-                    // configurator.ConfigureEndpoints(context, new KebabCaseEndpointNameFormatter("", false));
+                    configurator.ConfigureEndpoints(context, new KebabCaseEndpointNameFormatter(objName, false));
+                    configurator.UseMessageRetry(retryConfigurator => 
+                    {
+                        retryConfigurator.Interval(3, TimeSpan.FromSeconds(5));
+                    });
                 });
             });
 

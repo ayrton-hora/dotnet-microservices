@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ewn3B4jqqs1zw8/Bi5FnRrACD+8fLnrcPPfSV1FsC0kcwdoqbmP4KpMm83HERIvjXJ+TOYKV+IOzlVYjes8ESg==",
+  "dgSpecHash": "7v2t71jfvVzOKhf1VPw8fJgTkfsIoZSHYQNTQscyfBnzG5HaBT6MGHOrxW9uJNNF/ZE1Mb/r/oq0DZIlhDjNFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+  "projectFilePath": "c:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ayrton\\.nuget\\packages\\automatonymous\\5.1.3\\automatonymous.5.1.3.nupkg.sha512",
     "C:\\Users\\Ayrton\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
@@ -33,7 +33,7 @@
     "C:\\Users\\Ayrton\\.nuget\\packages\\newid\\3.0.3\\newid.3.0.3.nupkg.sha512",
     "C:\\Users\\Ayrton\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
     "C:\\Users\\Ayrton\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
-    "C:\\Users\\Ayrton\\.nuget\\packages\\play.common\\1.1.0\\play.common.1.1.0.nupkg.sha512",
+    "C:\\Users\\Ayrton\\.nuget\\packages\\play.common\\1.4.0\\play.common.1.4.0.nupkg.sha512",
     "C:\\Users\\Ayrton\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
     "C:\\Users\\Ayrton\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\Ayrton\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
@@ -48,7 +48,8 @@
     "C:\\Users\\Ayrton\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Ayrton\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512",
     "C:\\Users\\Ayrton\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512",
-    "C:\\Users\\Ayrton\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+    "C:\\Users\\Ayrton\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\Ayrton\\.nuget\\packages\\play.catalog.contracts\\1.0.0\\play.catalog.contracts.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

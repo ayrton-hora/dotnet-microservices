@@ -1,9 +1,6 @@
-using MongoDB.Driver;
-
-using Microsoft.Extensions.Options;
-
-using Play.Common.Settings;
 using System.Linq.Expressions;
+
+using MongoDB.Driver;
 
 namespace Play.Common.MongoDB
 {
@@ -13,15 +10,9 @@ namespace Play.Common.MongoDB
 
         private readonly FilterDefinitionBuilder<T> FilterBuilder = Builders<T>.Filter;
 
-        public MongoRepository(IOptions<MongoDbSettings> entityDbSettings, string collectionName)
+        public MongoRepository(IMongoDatabase database, string collectionName)
         {
-            if (entityDbSettings == null) throw new ArgumentNullException(nameof(entityDbSettings));
-
-            var mongoClient = new MongoClient(entityDbSettings.Value.ConnectionString);
-
-            var mongoDatabase = mongoClient.GetDatabase(entityDbSettings.Value.DatabaseName);
-
-            _dbCollection = mongoDatabase.GetCollection<T>(collectionName);
+            _dbCollection = database.GetCollection<T>(collectionName);
         }
 
         public async Task<IReadOnlyCollection<T>> GetAllAsync()
@@ -68,7 +59,5 @@ namespace Play.Common.MongoDB
             FilterDefinition<T> filter = FilterBuilder.Eq(e => e.Id, id);
             await _dbCollection.DeleteOneAsync(filter);
         }
-
-
     }
 }

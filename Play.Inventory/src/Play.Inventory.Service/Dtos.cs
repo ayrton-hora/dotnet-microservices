@@ -1,5 +1,3 @@
-using System;
-
 namespace Play.Inventory.Service.Dtos
 {
     public record GrantItemsDTO(

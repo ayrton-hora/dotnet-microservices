@@ -1,6 +1,3 @@
-using Microsoft.Extensions.Options;
-
-using Play.Common;
 using Play.Common.MongoDB;
 using Play.Common.Settings;
 using Play.Common.MassTransit;
@@ -10,15 +7,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.Configure<MongoDbSettings>(builder.Configuration.GetSection("MongoDbSettings"));
-builder.Services.AddMassTransitWithRabbit();
-
-// Dependecy Injection
-builder.Services.AddSingleton<IRepository<Item>>(service => 
-{
-    var options = service.GetService<IOptions<MongoDbSettings>>();
-    if (options == null) throw new ArgumentNullException(nameof(options));
-    return new MongoRepository<Item>(options, "Item");
-});
+builder.Services.AddMongo()
+                .AddMongoRepository<Item>("Items")
+                .AddMassTransitWithRabbit("Items");
 
 builder.Services.AddControllers(options => 
 {

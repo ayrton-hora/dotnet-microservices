@@ -9,7 +9,7 @@
       "Play.Catalog.Service/1.0.0": {
         "dependencies": {
           "Play.Catalog.Contracts": "1.0.0",
-          "Play.Common": "1.1.0",
+          "Play.Common": "1.2.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -308,7 +308,7 @@
           }
         }
       },
-      "Play.Common/1.1.0": {
+      "Play.Common/1.2.0": {
         "dependencies": {
           "MassTransit.AspNetCore": "7.3.1",
           "MassTransit.RabbitMQ": "7.3.1",
@@ -608,12 +608,12 @@
       "path": "newtonsoft.json.bson/1.0.2",
       "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
     },
-    "Play.Common/1.1.0": {
+    "Play.Common/1.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-O5YAmh50gK/41E6hXOOlmltfhyx/RRyRk55alEs6l9w/Xx8pOWGzwB6lIE9iaWQbokgZM2bTJ+JHhAjKPh+o1A==",
-      "path": "play.common/1.1.0",
-      "hashPath": "play.common.1.1.0.nupkg.sha512"
+      "sha512": "sha512-c+WVpbjC/cf1bxn0fKLJkMKPQjnCeXV81/fC/5kTfzD/KYTD3YKsxagkQTqIYYErIc8feiUA0pQEJMf94TO4fg==",
+      "path": "play.common/1.2.0",
+      "hashPath": "play.common.1.2.0.nupkg.sha512"
     },
     "RabbitMQ.Client/6.2.2": {
       "type": "package",

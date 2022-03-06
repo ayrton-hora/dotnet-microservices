@@ -426,7 +426,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {}
         }
       },
-      "Play.Common/1.1.0": {
+      "Play.Common/1.4.0": {
         "type": "package",
         "dependencies": {
           "MassTransit.AspNetCore": "7.3.1",
@@ -1215,14 +1215,14 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
-    "Play.Common/1.1.0": {
-      "sha512": "O5YAmh50gK/41E6hXOOlmltfhyx/RRyRk55alEs6l9w/Xx8pOWGzwB6lIE9iaWQbokgZM2bTJ+JHhAjKPh+o1A==",
+    "Play.Common/1.4.0": {
+      "sha512": "NO+Rf7iVtJ0q4oGq8/MASbz16api5c05D8VMvxF93BMtYndvmcatjno9nTlmk0m3+Cf9xI+fdklX5E3b7GY8dQ==",
       "type": "package",
-      "path": "play.common/1.1.0",
+      "path": "play.common/1.4.0",
       "files": [
         ".nupkg.metadata",
         "lib/net6.0/Play.Common.dll",
-        "play.common.1.1.0.nupkg.sha512",
+        "play.common.1.4.0.nupkg.sha512",
         "play.common.nuspec"
       ]
     },
@@ -1658,7 +1658,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Play.Catalog.Contracts >= 1.0.0",
-      "Play.Common >= 1.1.0",
+      "Play.Common >= 1.4.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -1668,11 +1668,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+      "projectUniqueName": "c:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
       "projectName": "Play.Catalog.Service",
-      "projectPath": "C:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+      "projectPath": "c:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
       "packagesPath": "C:\\Users\\Ayrton\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\obj\\",
+      "outputPath": "c:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ayrton\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1690,8 +1690,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj": {
-              "projectPath": "C:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj"
+            "c:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj": {
+              "projectPath": "c:\\Users\\Ayrton\\source\\repos\\.NET_Microservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj"
             }
           }
         }
@@ -1708,7 +1708,7 @@
         "dependencies": {
           "Play.Common": {
             "target": "Package",
-            "version": "[1.1.0, )"
+            "version": "[1.4.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

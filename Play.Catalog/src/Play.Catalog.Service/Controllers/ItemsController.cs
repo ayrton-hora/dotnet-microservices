@@ -1,5 +1,3 @@
-using System.IO;
-
 using MassTransit;
 
 using Microsoft.AspNetCore.Mvc;
@@ -26,7 +24,6 @@ namespace Play.Catalog.Service.Controllers
 
 		[HttpGet]
 		public String HealthCheck() => "I'm alive";
-
 
 		[HttpGet]
 		public async Task<ActionResult<IEnumerable<ItemDTO>>> GetAsync()
@@ -79,7 +76,7 @@ namespace Play.Catalog.Service.Controllers
 			return NoContent();
 		}
 
-		[HttpDelete]
+		[HttpDelete("{id}")]
 		public async Task<IActionResult> DeleteAsync(Guid id) 
 		{
 			var item = await _itemsRepository.GetAsync(id);

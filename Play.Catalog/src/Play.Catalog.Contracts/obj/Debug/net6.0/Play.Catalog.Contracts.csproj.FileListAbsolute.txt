@@ -10,3 +10,15 @@ C:\Users\Ayrton\source\repos\.NET_Microservices\Play.Catalog\src\Play.Catalog.Co
 C:\Users\Ayrton\source\repos\.NET_Microservices\Play.Catalog\src\Play.Catalog.Contracts\obj\Debug\net6.0\Play.Catalog.Contracts.dll
 C:\Users\Ayrton\source\repos\.NET_Microservices\Play.Catalog\src\Play.Catalog.Contracts\obj\Debug\net6.0\ref\Play.Catalog.Contracts.dll
 C:\Users\Ayrton\source\repos\.NET_Microservices\Play.Catalog\src\Play.Catalog.Contracts\obj\Debug\net6.0\Play.Catalog.Contracts.pdb
+C:\Users\Ayrton\Repositories\.NET_Microservices\Play.Catalog\src\Play.Catalog.Contracts\bin\Debug\net6.0\Play.Catalog.Contracts.deps.json
+C:\Users\Ayrton\Repositories\.NET_Microservices\Play.Catalog\src\Play.Catalog.Contracts\bin\Debug\net6.0\Play.Catalog.Contracts.dll
+C:\Users\Ayrton\Repositories\.NET_Microservices\Play.Catalog\src\Play.Catalog.Contracts\bin\Debug\net6.0\ref\Play.Catalog.Contracts.dll
+C:\Users\Ayrton\Repositories\.NET_Microservices\Play.Catalog\src\Play.Catalog.Contracts\bin\Debug\net6.0\Play.Catalog.Contracts.pdb
+C:\Users\Ayrton\Repositories\.NET_Microservices\Play.Catalog\src\Play.Catalog.Contracts\obj\Debug\net6.0\Play.Catalog.Contracts.csproj.AssemblyReference.cache
+C:\Users\Ayrton\Repositories\.NET_Microservices\Play.Catalog\src\Play.Catalog.Contracts\obj\Debug\net6.0\Play.Catalog.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ayrton\Repositories\.NET_Microservices\Play.Catalog\src\Play.Catalog.Contracts\obj\Debug\net6.0\Play.Catalog.Contracts.AssemblyInfoInputs.cache
+C:\Users\Ayrton\Repositories\.NET_Microservices\Play.Catalog\src\Play.Catalog.Contracts\obj\Debug\net6.0\Play.Catalog.Contracts.AssemblyInfo.cs
+C:\Users\Ayrton\Repositories\.NET_Microservices\Play.Catalog\src\Play.Catalog.Contracts\obj\Debug\net6.0\Play.Catalog.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Ayrton\Repositories\.NET_Microservices\Play.Catalog\src\Play.Catalog.Contracts\obj\Debug\net6.0\Play.Catalog.Contracts.dll
+C:\Users\Ayrton\Repositories\.NET_Microservices\Play.Catalog\src\Play.Catalog.Contracts\obj\Debug\net6.0\ref\Play.Catalog.Contracts.dll
+C:\Users\Ayrton\Repositories\.NET_Microservices\Play.Catalog\src\Play.Catalog.Contracts\obj\Debug\net6.0\Play.Catalog.Contracts.pdb
