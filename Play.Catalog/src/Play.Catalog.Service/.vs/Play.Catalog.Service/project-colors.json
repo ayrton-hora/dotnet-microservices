@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "82f5fc55-4b4d-4759-8c37-f1d8d2bfc042": {
+      "ProjectGuid": "82f5fc55-4b4d-4759-8c37-f1d8d2bfc042",
+      "DisplayName": "Play.Catalog.Service",
+      "ColorIndex": 0
+    },
+    "31ddc425-f90b-47f8-bb40-1a2820f4e557": {
+      "ProjectGuid": "31ddc425-f90b-47f8-bb40-1a2820f4e557",
+      "DisplayName": "Play.Catalog.Service",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
